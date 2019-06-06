@@ -1,0 +1,39 @@
+@font-face
+{
+font-family: 'Druk Wide';
+font-weight: normal;
+font-style: normal;
+
+src: url('../fonts/1.eot');
+src: url('../fonts/HeliosCompressedC.eot?#iefix') format('embedded-opentype'),
+url('../fonts/1.woff') format('woff'),
+url('../fonts/1.ttf') format('truetype');
+}
+*{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+option{
+  font-family: "Druk Wide";
+  font-size: 80px;
+}
+select{
+  margin-top: 70px;
+  margin-left: 50px;
+  background: transparent;
+    display: block;
+    border: none;
+    color: white;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: normal;
+    /* height: 00px; */
+    vertical-align: top;
+    outline: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none !important;
+    -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
+}
